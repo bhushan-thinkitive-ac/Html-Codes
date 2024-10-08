@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables - HTML</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border: 2px solid #000000;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        color: #333;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Tables in HTML</h1>
+      <table>
+        <caption>
+          Students Report
+        </caption>
+        <!-- head of the table -->
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+          </tr>
+        </thead>
+        <!-- body of the table -->
+        <tbody>
+          <tr>
+            <td>Bhushan</td>
+            <td>24</td>
+            <td>Pune</td>
+          </tr>
+          <tr>
+            <td>Aniket</td>
+            <td>25</td>
+            <td>Baner</td>
+          </tr>
+          <tr>
+            <td>Nikhil</td>
+            <td>24</td>
+            <td>Chinchwad</td>
+          </tr>
+          <tr>
+            <td>Dhananjay</td>
+            <td>23</td>
+            <td>Akurdi</td>
+          </tr>
+          <tr>
+            <td colspan="3">Vishal</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

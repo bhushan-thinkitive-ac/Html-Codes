@@ -1,0 +1,14 @@
+Basic:
+    1] Started with the basics of HTML.
+    2] Learned about <html>, <head>, <body>, <title>.
+Layout:    
+    3] Tags: <h1>, <p>, <a href = "", target = "_blank">, (<b>,<i>,<u>), <br>, <img src= "">, <hr>, <big>, <small>, <pre>
+    4] Layout: <header>, <footer>, <main>, <section>, <article>, <aside>, <div>, <span>, <center>
+    5] Attributes: <a href = "", target = "_blank">, <img src = "">
+List, Table, Forms:
+    6] Lists: <ol> <ul> <dl>, list types:disc, circle, square, "1","A","a","I","i"
+    7] definition list: <dt> <dd>
+    8] Table: <table>, <tr>, <th>, <td>, <thead>, <tbody>,<caption>, colspan
+    9] Forms: <form>, <label>, <input>, <id>,<select>, <textarea>,<button>
+    10] Attributes: action, value, name, placeholder, for, id, required,  
+    11] Video: <video>, <source>, <iframe>, type src, autoplay, controls, muted
